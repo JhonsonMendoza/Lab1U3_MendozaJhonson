@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Autenticación con Google</title>
+</head>
+<body>
+  <h2>Redirigiendo...</h2>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get('token');
+
+    if (token) {
+      localStorage.setItem('jwt', token);
+      window.location.href = "chat.html"; // o dashboard.html
+    } else {
+      alert("Error de autenticación");
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>
