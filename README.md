@@ -6,6 +6,7 @@
 **DOCENTE:** Ing. Paulo Galarza  
 **ESTUDIANTE:** Jhonson Mendoza  
 **TÍTULO DE LA PRÁCTICA:**  Implementación de Autenticación con Google OAuth2 y Chat en Tiempo Real Usando Socket.IO
+
 ---
 
 ## RESUMEN
@@ -148,4 +149,5 @@ También se evidenció cómo el uso de Live Server introduce peculiaridades en l
 ---
 #   L a b 1 U 3 _ M e n d o z a J h o n s o n 
  
+
  
