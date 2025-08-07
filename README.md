@@ -1,8 +1,15 @@
 # Implementación de Autenticación con Cuentas de Google usando Google Cloud
 
+**CARRERA:** Tecnologías de la Información  
+**ASIGNATURA:** Aplicaciones Distribuidas  
+**NIVEL:** Séptimo  
+**DOCENTE:** Ing. Paulo Galarza  
+**ESTUDIANTE:** Jhonson Mendoza  
+**TÍTULO DE LA PRÁCTICA:**  Implementación de Autenticación con Google OAuth2 y Chat en Tiempo Real Usando Socket.IO
 ---
 
 ## RESUMEN
+
 
 En el presente laboratorio se desarrolló una aplicación web que permite implementar el inicio de sesión a través de cuentas de Google, utilizando para ello el servicio de autenticación OAuth 2.0 proporcionado por Google Cloud. Esta funcionalidad se logra mediante la configuración adecuada de las credenciales en Google Cloud Console, la integración del paquete `passport-google-oauth20` en un servidor backend utilizando Node.js y Express, así como el uso de `localStorage` para almacenar el token JWT en el cliente (frontend) puro HTML. Se configuró una ruta protegida para validar el acceso únicamente si el usuario ha sido autenticado exitosamente. Se puso especial énfasis en la lógica de sesión entre el navegador y el servidor, logrando que la autenticación se mantenga de forma segura y funcional. Durante el proceso, se abordaron problemáticas típicas de entornos locales, como la gestión de sesiones sin un framework como React y la necesidad de adaptar la ruta de retorno (`callbackURL`) para Live Server. Se concluye que la autenticación de terceros mejora la experiencia de usuario y fortalece la seguridad de acceso en aplicaciones web, siendo una práctica ampliamente adoptada en la industria tecnológica actual.
 
@@ -139,5 +146,6 @@ También se evidenció cómo el uso de Live Server introduce peculiaridades en l
 - Node.js Documentation. (2023). *Express.js Guide*. https://expressjs.com/  
 
 ---
-#   L a b 1 U 3 _ M e n d o z a J h o n s o n  
+#   L a b 1 U 3 _ M e n d o z a J h o n s o n 
+ 
  
